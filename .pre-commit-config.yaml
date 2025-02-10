@@ -11,3 +11,4 @@ repos:
       - id: pylint
         language: python
         additional_dependencies: [fastapi, scikit-learn, python-dotenv]
+        entry: Scripts/check_pylint_score.py
